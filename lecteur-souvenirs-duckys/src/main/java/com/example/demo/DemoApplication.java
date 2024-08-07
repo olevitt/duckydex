@@ -11,7 +11,7 @@ import java.util.Set;
 @SpringBootApplication
 public class DemoApplication {
 
-	private static final List<String> PHRASES = List.of("Il fait chaud ici", "Coin coin", "Il existe un duckydex","Chaque ducky a des attaques differentes", "Coin coin coin", "J'ai faim", "J'ai soif");
+	private static final List<String> PHRASES = List.of("Il fait chaud ici", "Coin coin", "Il existe un duckydex","Chaque ducky a des attaques differentes", "Coin coin coin", "J'ai faim", "J'ai soif","Laissez moi dormir", "ZZZ");
 
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(DemoApplication.class, args);
